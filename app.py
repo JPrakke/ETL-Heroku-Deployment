@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, func, MetaData
 #  Database Setup
 # ################################################
 
-connection_string = (f"@127.0.0.1:3306/craftbeerDB")
+connection_string = (f"root:password@127.0.0.1:3306/craftbeerDB")
 
 engine = create_engine(f'mysql://{connection_string}',encoding='utf-8')
 
