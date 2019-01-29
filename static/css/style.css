@@ -1,0 +1,94 @@
+
+nav {
+    float:right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    z-index: 100000000 !important;
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25 px;
+
+     /* position: absolute;  */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a:before {
+    content:'';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width:0%;
+
+    transition: all erase-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+body { 
+    background-image:url('../assets/background.gif'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    display: block;
+}
+
+header  {
+    font-size: 60px;
+    color: #fdfcfc;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table {
+    width: 1400 px;
+    margin: auto;
+    text-align: center;
+    table-layout: fixed;
+}
+
+table, tr, th, td {
+    padding: 20px;
+    color: white;
+    border: 1px solid #fdfcfc;
+    font-family: Arial;
+    font-size: 20px;
+
+}
+
+th {
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+td:hover::after, 
+th:hover::after {
+    background-color: rgb(99, 97, 97);
+}
