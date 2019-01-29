@@ -1,1 +1,0 @@
-JAWSDB_URL = "mysql://fce79h6h4ftb6fs8:rb5k7wjrcon2hype@axxb6a0z2kydkco3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/wk96b8cgk1qxqqqg"
