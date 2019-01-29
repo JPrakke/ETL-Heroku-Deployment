@@ -9,7 +9,7 @@ from settings import JAWSDB_URL
 #  Database Setup
 # ################################################
 
-connection_string = (f"JAWSDB_URL")
+connection_string = JAWSDB_URL
 
 engine = create_engine(f'mysql://{connection_string}',encoding='utf-8')
 
