@@ -75,15 +75,15 @@ footer {
     width: 25%;
     margin-bottom: 16px;
     padding: 0 8px;
-  }
+}
   
 
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
+@media screen and (max-width: 650px) {
+   .column {
+     width: 100%;
+     display: block;
+   }
+}
   
   
   .card {
@@ -125,3 +125,7 @@ footer {
     width: 50px;
     margin-left: 10px;
   }
+.longImg{
+  height: 100%;
+  width: 100%; 
+}
